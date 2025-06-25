@@ -1,21 +1,5 @@
-import { StyleSheet, Text, View } from 'react-native';
+import SavedScreen from "../Screens/SavedScreen";
 
 export default function Saved() {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Saved Drinks Screen</Text>
-    </View>
-  );
+  return ( <SavedScreen /> );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#25292e',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  text: {
-    color: '#fff',
-  },
-});
