@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import { IconButton, Searchbar } from 'react-native-paper';
 
-const Home = () => {
+export default function Home() {
   return (
     <View style={styles.container}>
       <View style={styles.searchRow}>
@@ -15,9 +15,7 @@ const Home = () => {
       </View>
     </View>
   );
-};
-
-export default Home;
+}
 
 const styles = StyleSheet.create({
   container: {
