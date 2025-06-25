@@ -17,7 +17,13 @@ export default function TabLayout() {
         name="index"
         options={{
           title: 'Home',
-          tabBarIcon: ({ color, focused }) => (
+          tabBarIcon: ({
+            color,
+            focused,
+          }: {
+            color: string;
+            focused: boolean;
+          }) => (
             <Ionicons
               name={focused ? 'home-sharp' : 'home-outline'}
               color={color}
@@ -30,7 +36,13 @@ export default function TabLayout() {
         name="saved"
         options={{
           title: 'Saved Drinks',
-          tabBarIcon: ({ color, focused }) => (
+          tabBarIcon: ({
+            color,
+            focused,
+          }: {
+            color: string;
+            focused: boolean;
+          }) => (
             <FontAwesome6
               name={focused ? 'martini-glass-empty' : 'martini-glass'}
               size={24}
