@@ -9,13 +9,9 @@ const Home = () => {
         <Searchbar
           placeholder="Search for a drink..."
           style={styles.searchBar}
-          value=''
+          value=""
         />
-        <IconButton
-          icon="filter-variant"
-          size={28}
-          style={styles.filterIcon}
-        />
+        <IconButton icon="filter-variant" size={28} style={styles.filterIcon} />
       </View>
     </View>
   );
